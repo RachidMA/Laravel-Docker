@@ -18,6 +18,8 @@ class HarvestLocations extends MapWidget
 
     protected static ?bool $fitToBounds = true;
 
+
+    //how to map is zoom in
     protected static ?int $zoom = 12;
 
     protected function getData(): array
